@@ -1,0 +1,283 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body{
+background: linear-gradient(#200016,#10001f);
+height: 30vh;
+font-family: system-ui;
+
+
+}
+
+
+
+a{
+text-decoration: none;
+
+}
+header{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+
+
+
+
+}
+header .logo{
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+header ul{
+display: flex;
+justify-content: center;
+align-items: center;
+
+list-style: none;
+}
+
+header ul li{
+
+	margin-right: 30px;
+}
+
+
+header ul li a{
+
+	padding: 6px 15px;
+	border-radius: 20px;
+}
+header ul li a:hover, .ccc
+{
+	background: #fff;
+	
+
+
+}
+
+section{
+padding: 50px 200px;
+
+
+}
+.main{
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url(img/kkk.png) no-repeat;
+background-size: 40%;
+background-position: right;
+background-attachment: fixed;
+}
+
+
+
+
+
+.main h2{
+color: lightblue;
+font-size: 1.3em;
+font-weight: 400;
+}
+.main h2 span{
+	display: inline-block;
+	margin-top: 20px;
+color: lightpink;
+font-size: 4em;
+font-weight: 500;
+
+}
+
+.main h3{
+color: #fff;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+
+}
+
+.main-btn{
+color: black;
+background: lightgray;
+font-size: 2em;
+
+display: inline-block;
+padding: 10px 10px;
+border-radius: 15px; 
+margin-bottom: 40px;
+transition: 0.3s;
+
+}
+.main-btn:hover{
+background-color: lightpink;
+transform: scale(1.1);
+
+
+
+}
+
+.abouts{
+display: flex;
+justify-content: center;
+color: lightblue;
+font-size: 2.2em;
+font-weight: 800;
+margin-bottom: 30px;
+
+}
+
+.abou{
+	display: flex;
+justify-content: center;
+color: whitesmoke;
+font-size: 25px;
+font-weight: 100;
+
+}
+
+
+
+.title{
+	margin: 60px;
+display: flex;
+justify-content: center;
+color: lightblue;
+font-size: 2.2em;
+font-weight: 800;
+margin-bottom: 30px;
+
+
+
+}
+
+.content{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.card{
+background-color: lightsteelblue;
+width: 21.25em;
+box-shadow: 0 10px 40px rgba(0, 0, 0, 1.0);
+border-radius: 10px;
+padding: 23px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.card:hover{
+transform: scale(1.1);
+
+
+
+}
+.icon{
+
+
+font-size: 8em;
+text-align: center;
+}
+
+
+.info{
+text-align: center;
+
+
+
+}
+
+.info h3{
+color: #200016;
+font-size: 40px;
+font-weight: 700;
+
+}
+.projects .content{
+margin-top: 10px;
+
+
+}
+
+
+.proj-card{
+background-color: #200016;
+border: 2px solid #fff;
+min-height: 14em;
+width: 23em;
+margin: 20px;
+transition: 0.7s ease;
+
+}
+.proj-card:hover{
+	transform: scale(1.1);
+}
+.proj-img img{
+
+width: 100%;
+
+
+}
+.proj-info{
+padding: 1em;
+
+
+
+}
+
+.proj-cat{
+font-size: 20px;
+color: lightpink;
+font-weight: 800;
+}
+.project-title{
+
+	color: white;
+	font-size: 15px;
+	font-family: monospace;
+
+
+
+
+
+
+}
+.email{
+	color: white;
+	display: flex;
+justify-content: center;
+padding-top: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
